@@ -1,7 +1,6 @@
 import { LightningElement, wire } from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
-//import PokeApp from '@salesforce/resourceUrl/PokeApp';
-/** PokemonController.getAllPokes() Apex method */
+/** PokemonController.searchPokemons() Apex method */
 import searchPokemons from '@salesforce/apex/PokemonController.searchPokemons';
 export default class PokemonList extends NavigationMixin(LightningElement) {
 
